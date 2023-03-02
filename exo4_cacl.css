@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: linear-gradient(to right, #0587ab, #94a1bf);
+    font-family: Roboto;
+}
+
+#calculator{
+    width: 350px;
+    height: 520px;
+    background-color: whitesmoke;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+
+#screen{
+    background-color: #c1ccc6;
+    width: 320px;
+    margin:15px;
+    height: 100px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: right;
+    font-weight:bold;
+    font-size: 45px;
+}
+
+#screen span{
+    margin:10px;
+}
+
+.none{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border: none;
+    background-color:whitesmoke;
+}
+
+#keyboard{
+    height: 300px;
+}
+
+.func, .num{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight:bold;
+    background-color: rgb(238, 230, 223);
+}
+
+.item:hover{
+    background-color: aliceblue;
+}
+
+button:nth-child(1){
+    font-size: 18px;
+}
+button:nth-child(2){
+    font-size: 18px;
+}
+
+button:nth-child(3){
+    font-size: 18px;
+}
+
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #8f7f9e;
+}
