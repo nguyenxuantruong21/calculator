@@ -7,7 +7,7 @@ var items = Array.from(document.querySelectorAll('.item'))
 items.forEach(function (btn) {
     btn.addEventListener('click', function () {
         if (input.innerHTML === '0')
-            input.innerHTML = '0'
+            input.innerHTML = ''
         // neu an clear all thi xoa tat ca
         if (btn.innerHTML === 'C')
             input.innerHTML = '0'
